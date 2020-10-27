@@ -1,0 +1,118 @@
+*{
+	background-color: #dae1e7;
+	scroll-behavior: smooth;
+}
+.header ul{
+	border: 1px solid #3d677b;
+	padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #3d677b;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header li{
+    float: left;
+}
+.header li a {
+    display: block;
+    color: #a6a7a3;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: auto;
+    background-color: #3d677b;
+}
+.header li a:hover {
+    background-color: #dae1e7;
+    transition-duration: 2s;
+}
+h1 {
+	margin-top: 81px;
+	text-align: center;
+	color: #3d677b;
+}
+#daftar_box{
+	border: 1px solid #00909e;
+	height: auto;
+	width: 330px;
+	margin: 50px auto;
+	background-color: #3d677b;
+	border-radius: 20px;
+}
+#daftar_box h2{
+	text-align: center;
+	color: #dae1e7;
+	background-color: #3d677b;
+}
+form{
+	margin: 50px 50px;
+	background-color: #3d677b;
+}
+form input[type=text]{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+form input[type=password]{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+form input[type=submit]{
+	width: auto;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 1%;
+	background-color: #00909e;
+	color:#ffffff;
+	border: 2px solid #27496d;
+	cursor: pointer;
+}
+form textarea{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+form input[type=radio]{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: white;
+}
+footer{
+  border: 1px solid #3d677b;
+  width: 101%;
+  height: 100%;
+  background-color: #3d677b;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: -8px;
+  margin-bottom: -8px;
+}
+footer p{
+  text-align: center;
+  background-color: #3d677b;
+  color: #dae1e7;
+}

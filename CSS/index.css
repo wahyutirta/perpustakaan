@@ -1,0 +1,243 @@
+* {
+    background-color: #dae1e7;
+    scroll-behavior: smooth;
+
+}
+.navigasi ul {
+    border: 1px solid #3d677b;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #3d677b;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navigasi li {
+    float: left;
+}
+.navigasi li a {
+    display: block;
+    color: #a6a7a3;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    background-color: #3d677b;
+}
+.navigasi li a:hover {
+    background-color: #dae1e7;
+    transition-duration: 2s;
+}
+#section1, #section2, #section3, #section4 {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+#section1 img{
+    width: 100%;
+}
+#section1 h1{
+  text-align: center;
+  color: #000e47;
+}
+#section2 table {
+  border-collapse: collapse;
+}
+#section2 h2, h4 {
+  text-align: center;
+  color: #000e47;
+}
+#section2 th {
+    background-color: #000e47;
+    border: 1px solid #aaaaaa;
+    text-align:left;
+    color:#ffffff;
+    padding: 10px;
+    text-align: center;
+} 
+#section2 th a{
+    background-color: #000e47;
+    text-decoration: none;
+    color: #ffffff;
+}
+#section2 td {
+    background-color:   #cccccc;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+    color: #091b45;
+}
+#section2 form{
+  text-align: center;
+}
+#section2 form select {
+  width: 20%;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 1%;
+  cursor: pointer;
+  background-color: #cccccc;
+  color: #000e47;
+}
+#section2 form input[type=text]{
+  width: 20%;
+  height: 24px;
+  font-size: 14px;
+  margin-bottom: 1%;
+  background-color: white;
+}
+#section2 form button{
+  width: auto;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 1%;
+  background-color: #000e47;
+  color:#ffffff;
+  border: 2px solid #aaaaaa;
+  cursor: pointer;
+}
+#section3 {
+  color: #000e47;
+}
+#section3 h2{
+  text-align: center;
+}
+#section3 p{
+  text-align: justify;
+  text-indent: 0.5in;
+  width: 50%;
+}
+#section4{
+  border: 1px solid #00909e;
+  height: auto;
+  width: 330px;
+  margin: 0px 40% 0px;
+  background-color: #3d677b;
+  border-radius: 20px;
+}
+#section4 form{
+  margin: 50px 50px;
+  background-color: #3d677b;
+}
+#section4 label{
+  font-size: 16px;
+  color: #dae1e7;
+  background-color: #3d677b;
+}
+#section4 h2{
+  text-align: center;
+  color: #dae1e7;
+  background-color: #3d677b;
+}
+#section4 form input[type=text]{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#section4 form input[type=submit]{
+  width: auto;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 1%;
+  background-color: #00909e;
+  color:#ffffff;
+  border: 2px solid #dae1e7;
+  cursor: pointer;
+  margin-top: 10%;
+}
+#section4 input[type=date]{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#section5{
+  border: 1px solid #00909e;
+  height: auto;
+  width: 330px;
+  margin: auto;
+  background-color: #3d677b;
+  border-radius: 20px;
+}
+#section5 h2{
+  text-align: center;
+  color: #dae1e7;
+  background-color: #3d677b;
+}
+#section5 form{
+  margin: 50px 50px;
+  background-color: #3d677b;
+}
+#section5 form input[type=text]{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#section5 form input[type=password]{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#section5 form input[type=submit]{
+  width: auto;
+  height: 30px;
+  font-size: 14px;
+  margin-bottom: 1%;
+  background-color: #00909e;
+  color:#ffffff;
+  border: 2px solid #27496d;
+  cursor: pointer;
+}
+#section5 form textarea{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+#section5 form input[type=radio]{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+footer{
+  border: 1px solid #3d677b;
+  width: 101%;
+  height: 100%;
+  background-color: #3d677b;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: -8px;
+  margin-bottom: -8px;
+}
+footer p{
+  text-align: center;
+  background-color: #3d677b;
+  color: #dae1e7;
+}
