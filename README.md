@@ -1,3 +1,3 @@
 "# perpustakaan" 
 this is a simple library information system
-this built on native hph. simple html + css and my sql
+this built on native php. simple html + css and my sql
